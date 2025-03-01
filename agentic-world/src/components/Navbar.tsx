@@ -36,7 +36,7 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6 text-lg">
           <li>
             <Link href="#technology" className="hover:text-purple-400 transition-all">
-              Technology
+              Technologies
             </Link>
           </li>
           <li>
@@ -80,10 +80,10 @@ const Navbar = () => {
 
             <nav className="flex flex-col space-y-6 text-xl text-center">
               <Link href="#technology" className="text-white hover:text-purple-600 transition-all" onClick={handleLinkClick}>
-                Technology
+                Technologies
               </Link>
               <Link href="#insights" className="text-white hover:text-purple-600 transition-all" onClick={handleLinkClick}>
-                Agents
+                Insights
               </Link>
               <Link href="#pricing" className="text-white hover:text-purple-600 transition-all" onClick={handleLinkClick}>
                 Pricing
